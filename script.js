@@ -6,16 +6,26 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsWon = [];
 
     const cardArray = [
-        { name: 'card1', img: 'images/distracted.png' },
-        { name: 'card1', img: 'images/distracted.png' },
-        { name: 'card2', img: 'images/drake.png' },
-        { name: 'card2', img: 'images/drake.png' },
-        { name: 'card3', img: 'images/fine.png' },
-        { name: 'card3', img: 'images/fine.png' },
-        { name: 'card4', img: 'images/rollsafe.png' },
-        { name: 'card4', img: 'images/rollsafe.png' },
-        { name: 'card5', img: 'images/success.png' },
-        { name: 'card5', img: 'images/success.png' },
+        { name: 'card1', img: 'images/backyard.png' },
+        { name: 'card1', img: 'images/backyard.png' },
+        { name: 'card2', img: 'images/city-center.png' },
+        { name: 'card2', img: 'images/city-center.png' },
+        { name: 'card3', img: 'images/Edmonton.png' },
+        { name: 'card3', img: 'images/Edmonton.png' },
+        { name: 'card4', img: 'images/Kigali-sky.png' },
+        { name: 'card4', img: 'images/Kigali-sky.png' },
+        { name: 'card5', img: 'images/Kigali.png' },
+        { name: 'card5', img: 'images/Kigali.png' },
+        { name: 'card6', img: 'images/Kivu-Serena.png' },
+        { name: 'card6', img: 'images/Kivu-Serena.png' },
+        { name: 'card7', img: 'images/Lake-Louise.png' },
+        { name: 'card7', img: 'images/Lake-Louise.png' },
+        { name: 'card8', img: 'images/Marina-Bay.png' },
+        { name: 'card8', img: 'images/Marina-Bay.png' },
+        { name: 'card9', img: 'images/My-flowers.png' },
+        { name: 'card9', img: 'images/My-flowers.png' },
+        { name: 'card10', img: 'images/Rebero.png' },
+        { name: 'card10', img: 'images/Rebero.png' },
         // ...add more pairs as needed
     ];
 
