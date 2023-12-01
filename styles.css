@@ -11,7 +11,7 @@ body {
     width: auto;
     margin: 40px auto;
     padding: 30px;
-    background-color: #3c404d; 
+    background-color: #0b0818; 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
     border-radius: 15px; 
 }
@@ -28,8 +28,8 @@ h1 {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     justify-content: center;
     padding: 20px;
