@@ -6,24 +6,26 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsWon = [];
 
     const cardArray = [
-        { name: 'card1', img: 'images/city-center.JPG' },
-        { name: 'card1', img: 'images/city-center.JPG' },
-        { name: 'card2', img: 'images/Edmonton.JPG' },
-        { name: 'card2', img: 'images/Edmonton.JPG' },
-        { name: 'card3', img: 'images/KCC.JPG' },
-        { name: 'card3', img: 'images/KCC.JPG' },
-        { name: 'card4', img: 'images/Kivu-marina-bay.JPG' },
-        { name: 'card4', img: 'images/Kivu-marina-bay.JPG' },
-        { name: 'card5', img: 'images/Kivu.JPG' },
-        { name: 'card5', img: 'images/Kivu.JPG' },
-        { name: 'card6', img: 'images/lake-louise.JPG' },
-        { name: 'card6', img: 'images/lake-louise.JPG' },
-        { name: 'card7', img: 'images/Rebero.JPG' },
-        { name: 'card7', img: 'images/Rebero.JPG' },
-        { name: 'card8', img: 'images/ReberoB.JPG' },
-        { name: 'card8', img: 'images/ReberoB.JPG' },
-        { name: 'card9', img: 'images/Rubavu.JPG' },
-        { name: 'card9', img: 'images/Rubavu.JPG' },
+        { name: 'card1', img: 'images/City-Center.PNG' },
+        { name: 'card1', img: 'images/City-Center.PNG' },
+        { name: 'card2', img: 'images/Edmonton.PNG' },
+        { name: 'card2', img: 'images/Edmonton.PNG' },
+        { name: 'card3', img: 'images/Kigali-CC.PNG' },
+        { name: 'card3', img: 'images/Kigali-CC.PNG' },
+        { name: 'card4', img: 'images/Kivu-Marina.PNG' },
+        { name: 'card4', img: 'images/Kivu-Marina.PNG' },
+        { name: 'card5', img: 'images/Kivu.PNG' },
+        { name: 'card5', img: 'images/Kivu.PNG' },
+        { name: 'card6', img: 'images/Lake-louise.PNG' },
+        { name: 'card6', img: 'images/Lake-louise.PNG' },
+        { name: 'card7', img: 'images/Project.PNG' },
+        { name: 'card7', img: 'images/Project.PNG' },
+        { name: 'card8', img: 'images/Rebero.PNG' },
+        { name: 'card8', img: 'images/Rebero.PNG' },
+        { name: 'card9', img: 'images/Rebero2.PNG' },
+        { name: 'card9', img: 'images/Rebero2.PNG' },
+        { name: 'card10', img: 'images/Rubavu.PNG' },
+        { name: 'card10', img: 'images/Rubavu.PNG' },
         // ...add more pairs as needed
     ];
 
@@ -38,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         for (let i = 0; i < cardArray.length; i++) {
             const card = document.createElement('img');
-            card.setAttribute('src', 'images/blank.jpg');
+            card.setAttribute('src', 'images/Blank.PNG');
             card.setAttribute('data-id', i);
             card.addEventListener('click', flipCard);
             grid.appendChild(card);
@@ -69,8 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
             cards[secondCardId].removeEventListener('click', flipCard);
             cardsWon.push(cardsChosen);
         } else {
-            cards[firstCardId].setAttribute('src', 'images/blank.jpg');
-            cards[secondCardId].setAttribute('src', 'images/blank.jpg');
+            cards[firstCardId].setAttribute('src', 'images/Blank.PNG');
+            cards[secondCardId].setAttribute('src', 'images/Blank.PNG');
         }
 
         cardsChosen = [];
